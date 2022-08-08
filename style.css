@@ -242,8 +242,12 @@ input:focus {
 .app-store , .play-store {
         width: 140px;
 
-
 }
+
+.app-store:hover , .play-store:hover {
+        cursor:pointer;
+}
+
 .app-store {
         height: 40px;
 }
