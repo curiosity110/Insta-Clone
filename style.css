@@ -38,21 +38,21 @@ body {
 
 
         25% {
-                background: url(/images/slides/first.png);
+                background: url(https://i.ibb.co/CK5GG70/first.png);
 
 
         }
         50% {
-                background: url(/images/slides/second.png);
+                background: url(https://i.ibb.co/d4NWQ1k/second.png);
 
 
         }
         75% {
-                background: url(/images/slides/third.png);
+                background: url(https://i.ibb.co/Gp7XCFh/third.png);
 
         }
         100% {
-                background: url(/images/slides/fourth.png);
+                background: url(https://i.ibb.co/SVWxzhL/fourth.png);
 
         }
 } 
