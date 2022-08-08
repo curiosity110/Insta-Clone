@@ -1,0 +1,355 @@
+body {
+        background-color: #fbfbfb;
+}
+
+
+.page {
+
+        margin-top: 20px;
+        position: relative;
+        display:flex;
+        justify-content:space-evenly;
+}
+
+.phone-background {
+        top:0;
+        width: 384px;
+        position:absolute;
+        z-index: 0;
+}
+
+
+.slider {
+        z-index: 1;
+        width: 250px;
+        height: 540px;
+        position:relative;
+        top:27px;;
+        left:113px;
+        animation: slide 20s infinite;
+        animation-timing-function: cubic-bezier(0.2,-2,0.8,2);
+}
+
+@media only screen and (max-width: 1200px) { 
+        .slider, .phone-background {
+        display:none;}
+}
+@keyframes slide {
+
+
+        25% {
+                background: url(/images/slides/first.png);
+
+
+        }
+        50% {
+                background: url(/images/slides/second.png);
+
+
+        }
+        75% {
+                background: url(/images/slides/third.png);
+
+        }
+        100% {
+                background: url(/images/slides/fourth.png);
+
+        }
+} 
+
+
+
+.head {
+        background-color: white;
+        border: 1px solid #e3e3e3;
+        padding: 45px 75px;
+        width: 195px;
+        height: 302px;
+
+        margin-top: 15px;
+        /* margin-left: -1000px; */
+        display: flex;
+        flex-direction: column;
+}
+
+.instagram-logo {
+        margin-bottom: 35px;
+}
+
+.username{
+        width: 219px;
+        /* height: px; */
+        padding: 11px 40px 13px 8px;
+        margin-left: -35px;
+        font-family: Arial;
+        font-size: 12px;
+        border: 1px solid #e3e3e3;
+        margin-bottom: 5px;
+        border-radius: 3px;
+
+
+}
+.password{
+        width: 219px;
+        padding: 11px 40px 13px 8px;
+        margin-left: -35px;
+        font-family: Arial;
+        font-size: 12px;
+        border: 1px solid #e3e3e3;
+        border-radius: 3px;
+        margin-bottom: 13px;
+
+}
+
+input:focus {
+        outline: none;
+        box-shadow: 0px 0px 0px 1px rgb(160, 160, 160);
+}
+.log-in {
+        color: white;
+        background-color: rgb(0, 132, 255);
+        opacity: 0.5;
+        border: none;
+        cursor:pointer;
+        font-size: 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        padding: 7px 20px;
+        width: 230px;
+        border-radius: 4px;
+        margin-left: -34px;
+        text-align: center;
+}
+
+.head a {
+        text-decoration: none;
+}
+.or {
+        background-color: white;
+        height: 5px;
+        width: 40px;
+        position:relative;
+        height: 20px;
+        z-index: 1;
+        top:7px;
+        left:69px;
+        margin-bottom: -26.5px;
+        border-radius: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:gray;
+        font-weight: 550;
+        font-size: 12px;      
+        
+}
+
+
+
+.or-line {
+        position:relative;
+        margin-top: 21px;
+        width: 239px;
+        height: 0px;
+        z-index:0;
+        left:-30px;
+        margin-bottom:6px;
+}
+
+.facebook-logo {
+        width: 18px;
+        margin-left: 20px;
+
+}
+
+
+.facebook-login {
+        font-family: Roboto;
+        color: rgb(56 81 133);
+        font-weight: 500;
+        font-size: 14px;
+        vertical-align: top;
+        margin-left: 2.5px;
+
+}
+
+
+.pw-forget {
+        margin-top: 16px;
+        font-size: 11px;
+        font-family: Roboto;
+        text-align: center;
+        margin-left: 16px;
+        color: rgb(0 55 107);
+}
+
+.signup-button {
+        font-size: 14px;
+        font-family: Roboto;
+        color: rgb(0 55 107);
+        margin-top: 20px;
+        position: relative;
+        width: 347px;
+        left: -76px;
+        border: 1px solid #e3e3e3;
+        height: 61px;
+        background-color: white;
+
+}
+
+.signup {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Roboto;
+        color: rgb(0 149 246);
+}
+
+.gtp {
+        /* font-size: 12px */
+        font-family: Roboto;
+        position: relative;
+        top: 15px;
+        left: 45px;
+        color: rgb(0 55 107);
+}
+
+.img-stores {
+        display:flex;
+        margin-bottom: 100px;
+}
+
+.img-stores img {
+        margin: 0px 5px 0px 8px;
+        position: relative;
+        top: 30px;
+        left: -55px;
+        object-fit: contain;
+        display:inline-block;
+        
+}
+
+.app-store , .play-store {
+        width: 140px;
+
+
+}
+.app-store {
+        height: 40px;
+}
+
+.play-store {
+        height: 40px;
+}
+
+
+
+
+
+
+
+.bottom-page {
+        font-size: 11px;
+        font-family: Roboto;
+        color:rgb(142 142 142);
+
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        /* position:sticky; */
+        /* margin-top: 160px; */
+        /* top:160px; */
+        top:145px;
+        gap: 1vh;
+
+        padding: 20px;
+        column-fill: 40px;
+
+} 
+
+@media only screen and (max-width: 1200px) {
+.bottom-page {
+        margin-top: 50px;
+}
+}
+
+
+.bottom-page a {
+        text-decoration: none;
+        font-size: 11px;
+        font-family: Roboto;
+        color:rgb(142 142 142);
+        text-orientation: sideways;
+}
+
+.bottom-page a:hover {
+        text-decoration: none;
+
+}
+
+
+
+.bottom-first-line {
+        margin-bottom: -10px;
+        padding-left: 50px;
+
+
+}
+
+
+.bottom-second-line {
+        flex-shrink: 0;
+        margin-bottom: -30px;
+        padding-left: 30px;
+
+}
+    
+
+.insta2022 {
+        position: absolute;
+        bottom: 19px;
+        margin-left: 100px;
+}
+
+
+
+.dropdown-content {
+        display:none;
+        position:absolute;
+        flex-direction: column;
+        bottom: 46px;
+        background-color: white;
+        border:1px solid #e3e3e3;
+        height: 400px;
+        overflow:scroll;
+        overflow-x: hidden;
+        width: 140px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2px;
+        color:black;
+        /* padding: 0px 20px 50px 4px; */
+        padding: 0px 1px 0px 4px;
+        border-radius: 5px;
+}
+
+.languages {
+        margin-top: 7px;
+}
+
+.languages:hover {
+        background-color: blue;
+        color:white;
+        box-shadow: 0px 0px 0px 10px blue;
+}
+
+.dropdown:hover .dropdown-content {
+        display:flex;
+
+
+}
+
+.dropdown {
+        margin-left: -120px;
+}
