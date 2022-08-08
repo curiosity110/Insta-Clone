@@ -101,6 +101,7 @@ body {
 
 }
 
+
 input:focus {
         outline: none;
         box-shadow: 0px 0px 0px 1px rgb(160, 160, 160);
@@ -173,6 +174,9 @@ input:focus {
         margin-left: 2.5px;
 
 }
+.facebook-login:hover {
+        cursor:pointer;
+}
 
 
 .pw-forget {
@@ -182,6 +186,9 @@ input:focus {
         text-align: center;
         margin-left: 16px;
         color: rgb(0 55 107);
+}
+.pw-forge:hover {
+        cursor:pointer;
 }
 
 .signup-button {
@@ -203,6 +210,9 @@ input:focus {
         font-weight: 500;
         font-family: Roboto;
         color: rgb(0 149 246);
+}
+.signup:hover {
+        cursor:pointer;
 }
 
 .gtp {
